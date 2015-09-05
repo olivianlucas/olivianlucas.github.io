@@ -4,11 +4,26 @@ body{
 	font-size: 12px;
 	text-align: center;
 	background: #ecf0f1;	
+	
 }
 
+#main {     
+	width: 700px;     
+	float: right; 
+}
+
+header {
+	float: left;
+	background: #E9DECE;
+	width: 280px;
+	height: 20%;
+	position: fixed;
+	top: 0;
+	margin: 0;
+}
 
 h1 {
-	color: #ecf0f1;
+	color: #E9DECE;
 }
 
 hr{
@@ -20,16 +35,15 @@ ul{
 }
 
 #side{
-
 	background: #E9DECE; 
 	text-align: left;
-	margin: 0px auto;
-	position: relative;
-	
+	margin: 20% auto;	
 	padding: 10px;
-	width:240px;
-	float:left;
-	bottom:450px;
+	width:280px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 80%;
 }
 
 #slogan{
@@ -47,5 +61,7 @@ h2{
 	font-size: 14px;
 }
 
-
+footer {
+	clear: both;
+}
 
