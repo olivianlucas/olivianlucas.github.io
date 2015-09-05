@@ -34,6 +34,7 @@ ul{
 	position: fixed;
 	top: 25%;
 	left: 0;
+	height: auto;
 	
 }
 
@@ -67,20 +68,21 @@ footer {
 }
 
 @media only screen and (max-width: 800px) {
-  nav {
-    float: none;
-  }	
-  nav {
-    float: none;
-  }
-  nav a {
-      margin: 0 1.6em .75em 0;
-  }
-   img {
-    width: 320px;
+  
+  #thumbnails {
+    width: 50px;
   }
   #about {
     font-size: 1.4em;
     line-height: 1.8em;
   }
+}
+
+@media only screen and (max-width: 480px) {
+
+	#thumbnails {
+		width: 20px;
+	}
+
+
 }
