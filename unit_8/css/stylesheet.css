@@ -23,7 +23,7 @@ h1 {
 
 ul{
 	text-align: left;
-	line-height: 1.5em;
+	line-height: 1.4em;
 }
 
 #side{
@@ -61,6 +61,12 @@ footer {
 	width: 33.33em;
 	display: inline;
 	padding-left: 300px;
+	height: 20px;
+	margin: 20px;
+}
+
+img {
+	padding: 20px;
 }
 
 #logo {
@@ -72,17 +78,27 @@ footer {
   #thumbnails {
     width: 50px;
   }
-  #about {
-    font-size: 1.4em;
-    line-height: 1.8em;
+ 
+   p ul {
+    font-size: 1em;
+    line-height: 1em;
   }
 }
 
 @media only screen and (max-width: 480px) {
 
-	#thumbnails {
+	#img {
 		width: 20px;
+
 	}
+	#logo {
+		width: 10em;
+		float: none;
+	}
+	p {
+    font-size: 1em;
+    line-height: 1em;
+  }
 
 
 }
