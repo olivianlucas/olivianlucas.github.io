@@ -12,9 +12,10 @@ footer {
 ul{
 	text-align: left;
 	line-height: 1.4em;
+	list-style: none;
 }
 hr{
-	width: 240px;
+	width: 80%;
 }
 h1 {
 	color: #E9DECE;
@@ -22,52 +23,47 @@ h1 {
 h2{
 	text-transform: uppercase;
 	font-size: 16px;
+	padding: .5em;
+}
+p{
+	line-height: 1.5em;
+	padding: .5em;
 }
 #side{
 	background: #E9DECE; 
 	text-align: left;
 	padding: 0 10px;
-	width:310px;
+	width: 30%;
 	position: fixed;
 	top: 0;
 	left: 0;
+	height: 100%;
 }
 #thumbnails img {
 	display:block;
-	float:left;
-	padding: 1em;
-	width:33.33%;
+	float:right;
+	padding: 2em;
+	width:23.33%;
 }
-#logo {
-	padding-left: 15px;
+
+#logo img{
+	padding: 2em .5em .5em .5em;
+	width: 60%;
+}
+#work a{
+	text-decoration: none;
+	padding: 0;
+	color: #000000;
+}
+
+span {
+	text-decoration: bold;
 }
 
 @media only screen and (max-width: 800px) {
   
-  #thumbnails {
-    width: 50px;
-  }
- 
-   p ul {
-    font-size: 1em;
-    line-height: 1em;
-  }
 }
 
 @media only screen and (max-width: 480px) {
-
-	#img {
-		width: 20px;
-
-	}
-	#logo {
-		width: 10em;
-		float: none;
-	}
-	p {
-    font-size: 1em;
-    line-height: 1em;
-  }
-
 
 }
